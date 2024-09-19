@@ -674,5 +674,4 @@ input:where([type="text"], [type="email"], ) {
   .display-md-inline-flex {
     display: inline-flex;
   }
-
- 
+}
