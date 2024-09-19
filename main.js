@@ -10,7 +10,8 @@ navToggle.addEventListener("click", () => {
   primaryHeader.toggleAttribute("data-overlay");
 });
 
-const slider = new A11YSlider(document.querySelector(".slider"), {
+// Add this to fix A11YSlider issue
+const slider = new A11YSlider(document.querySelector('.slider'), {
   adaptiveHeight: false,
   dots: true,
   centerMode: true,
