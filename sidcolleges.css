@@ -1,0 +1,162 @@
+/* colleges.css */
+
+
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    background-color: #f9f9f9; /* Light background */
+
+    margin: 0;
+
+    padding: 20px;
+
+}
+
+
+
+h1 {
+
+    text-align: center;
+
+    color: #2c3e50; /* Dark blue */
+
+}
+
+
+
+.filter-row, .filter-row-second {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+label {
+
+    margin: 0 10px 0 0;
+
+    font-weight: bold;
+
+    color: #2c3e50; /* Dark blue */
+
+}
+
+
+
+input, select {
+
+    padding: 10px;
+
+    margin: 5px 10px;
+
+    border: 1px solid #ccc; /* Light gray border */
+
+    border-radius: 4px;
+
+    font-size: 16px;
+
+}
+
+
+
+input:focus, select:focus {
+
+    border-color: #2980b9; /* Lighter blue on focus */
+
+    outline: none;
+
+}
+
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+}
+
+
+
+th {
+
+    background-color: #2980b9; /* Lighter blue */
+
+    color: white;
+
+    padding: 10px;
+
+}
+
+
+
+td {
+
+    background-color: #ffffff; /* White for data */
+
+    padding: 10px;
+
+    border: 1px solid #ddd; /* Light gray for borders */
+
+}
+
+
+
+tbody tr:nth-child(even) {
+
+    background-color: #2980b9; /* Light gray for even rows */
+
+}
+
+
+
+tbody tr:hover {
+
+    background-color: #ffffff; /* Slightly darker on hover */
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .filter-row, .filter-row-second {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+    }
+
+
+
+    label {
+
+        margin-bottom: 5px;
+
+    }
+
+
+
+    input, select {
+
+        width: 100%;
+
+        margin: 5px 0;
+
+    }
+
+}
+
