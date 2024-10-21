@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma Colleges Filter</title>
+    <link rel="stylesheet" href="collegess.css">
+    
+</head>
+<body>
+
+<h1>Diploma Colleges</h1>
+
+<div class="filter-row">
+    <label for="instituteName">Institute Name:</label>
+    <input type="text" id="instituteName" oninput="filterColleges()">
+    <label for="instituteCode">Institute Code:</label>
+    <input type="text" id="instituteCode" oninput="filterColleges()">
+    <label for="branchName">Branch Name:</label>
+    <input type="text" id="branchName" oninput="filterColleges()">
+</div>
+<div class="filter-row-second">
+    <label for="districtCode">District Code:</label>
+    <select id="districtCode" onchange="filterColleges()">
+        <option value="">All</option>
+        <option value="ADB">ADB</option>
+        <option value="RR">RR</option>
+        <option value="HYD">HYD</option>
+        <option value="SRD">SRD</option>
+        <option value="KRM">KRM</option>
+        <option value="MDL">MDL</option>
+    </select>
+    <label for="coEducation">Co Education:</label>
+    <select id="coEducation" onchange="filterColleges()">
+        <option value="">All</option>
+        <option value="COED">COED</option>
+        <option value="GIRLS">GIRLS</option>
+    </select>
+    <label for="collegeType">College Type:</label>
+    <select id="collegeType" onchange="filterColleges()">
+        <option value="">All</option>
+        <option value="GOV">Government</option>
+        <option value="PVT">Private</option>
+    </select>
+</div>
+<table id="collegeTable">
+    <thead>
+        <tr>
+            <th>Institute Code</th>
+            <th>Institute Name</th>
+            <th>Place</th>
+            <th>District Code</th>
+            <th>Co Education</th>
+            <th>College Type</th>
+            <th>Year of Establishment</th>
+            <th>Branch Code</th>
+            <th>Branch Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Data will be populated here via JavaScript -->
+    </tbody>
+</table>
+
+<script type="text/javascript" src="/collegess.js"></script>
+
+</body>
+</html>
