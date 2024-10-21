@@ -35,6 +35,27 @@ fieldset {
     border-radius: 8px;
     padding: 20px;
 }
+nav {
+    background :#e8491d;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
 
 legend {
     color: #ffa500;
