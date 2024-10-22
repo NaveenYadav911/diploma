@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,6 +14,39 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
 
 h1 {
     text-align: center;
@@ -27,7 +61,7 @@ h1 {
 label {
     margin: 10px 0 5px;
     font-weight: bold;
-    color: #333;
+    color: hsl(228, 39%, 23%);;
     font-size: 1.1em;
     text-transform: uppercase;
 }
@@ -41,7 +75,7 @@ input, textarea {
 button {
     padding: 10px;
     margin-top: 15px;
-    background-color: #5cb85c;
+    background-color:hsl(232, 12%, 13%);;
     color: white;
     border: none;
     border-radius: 4px;
@@ -49,7 +83,7 @@ button {
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: hsl(232, 12%, 13%);
 }
 
 .contact-info, .social-media {
@@ -59,7 +93,7 @@ button:hover {
 .social-media a {
     margin-right: 10px;
     text-decoration: none;
-    color: #007bff;
+    color:  hsl(228, 39%, 23%);
 }
 
 .social-media a:hover {
@@ -70,4 +104,56 @@ button:hover {
     background-color: #f0f0f0;
     padding: 2px 5px;
     border-radius: 3px;
+}
+.highlight-box {
+    background-color: #f0f0f0;
+    border-left: 5px solid #e8491d;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+    color: #35424a;
+    margin-top: 0;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #e8491d;
+}
+
+.contact-info a {
+    color: #35424a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color:hsl(232, 12%, 13%);
+    text-decoration: underline;
+}
+.social-media {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #35424a;
+    border-radius: 5px;
+}
+
+.social-media h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #e8491d;
 }
