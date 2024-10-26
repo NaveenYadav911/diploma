@@ -15,18 +15,18 @@ body {
 /* Header and Navigation Styles */
 .primary-header {
     background-color: white;
-    padding: 12rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem 0; /* Adjust padding as needed */
+    text-align: center; /* Center text within the header */
 }
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the nav items */
     align-items: center;
 }
 
 .primary-navigation {
-    display: flex;
+    display: inline-flex; /* Center the navigation items */
 }
 
 .nav-list {
@@ -34,8 +34,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 .nav-list li {
@@ -149,7 +147,7 @@ button:hover {
 }
 
 .social-media a {
-    display: inline -block;
+    display: inline-block;
     margin: 10px;
     color: white;
     text-decoration: none;
