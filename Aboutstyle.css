@@ -1,55 +1,88 @@
- p {
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-}
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
     line-height: 1.6;
-}
- h2 {
     margin: 0;
-    font-size: 2.5em;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-.vishal{
-  background: url('IMG_20240830_074229.jpg') no-repeat center center/cover;
-}
-nav {
-    background :#e8491d;
-    color: #ffffff;
+
+header {
+
+    color: hsl(228, 39%, 23%);
     padding: 10px 0;
+    text-align: center;
+}
+.primary-header {
+    
+    padding: 2rem 0; /* Adjust padding as needed */
+    text-align: center; /* Center text within the header */
 }
 
-nav ul {
+.nav-wrapper {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    align-items: center;
+}
+
+.primary-navigation {
+    display: inline-flex; /* Center the navigation items */
+}
+
+.nav-list {
+    display: flex;
     list-style: none;
-    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.nav-list li {
+    flex-shrink: 0;
 }
 
-nav ul li a {
-    color: #ffffff;
+.nav-list a {
     text-decoration: none;
-    font-size: 1.1em;
-}
-footer {
-    background: #000000;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
+    color: hsl(228, 39%, 23%);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    transition: color 0.3s ease;
 }
 
-footer p {
-    margin: 0.5;
+.nav-list a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+/* Main content styles */
+.contact-main {
+    padding: 2rem 0;
+}
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .about h3 {
+    color:hsl(12, 88%, 59%);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: hsl(232, 12%, 13%);
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
