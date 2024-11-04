@@ -1,3 +1,4 @@
+
 /* colleges.css */
 
 body {
@@ -6,7 +7,50 @@ body {
     margin: 0;
     padding: 20px;
 }
+.primary-header {
+    background-color: white;
+    padding: 2rem 0; /* Adjust padding as needed */
+    text-align: center; /* Center text within the header */
+}
 
+.nav-wrapper {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    align-items: center;
+}
+
+.primary-navigation {
+    display: inline-flex; /* Center the navigation items */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    flex-shrink: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color:hsl(232, 12%, 13%);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+/* Main content styles */
+.contact-main {
+    padding: 2rem 0;
+}
 h1 {
     text-align: center;
     color: #2c3e50; /* Dark blue */
