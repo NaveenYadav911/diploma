@@ -1,0 +1,164 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color:  hsl(12, 88%, 59%);;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+ul li::before {
+    content: "• ";
+    color:hsl(12, 88%, 59%);;
+    font-size: 1.5rem;
+}
+
+/* Header Styles */
+header {
+  
+    color: white;
+    padding: 20px 0;
+}
+
+header nav ul {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.primary-header {
+    background-color: white;
+    padding: 2rem 0; /* Adjust padding as needed */
+    text-align: center; /* Center text within the header */
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    align-items: center;
+}
+
+.primary-navigation {
+    display: inline-flex; /* Center the navigation items */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    flex-shrink: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+/* Main content styles */
+.contact-main {
+    padding: 2rem 0;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(228, 39%, 23%);
+    margin-bottom: 2rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Section Styles */
+.step {
+    margin: 40px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.step:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
