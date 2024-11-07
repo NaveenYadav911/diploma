@@ -1,12 +1,12 @@
 
 const institutes = [
-    { instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CE", branchName: "DIPLOMA IN CIVIL ENGINEERING" },
-    { instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CS", branchName: "DIPLOMA IN COMPUTER ENGINEERING" },
-    { instituteCode: "JNGP", instituteName: "J N GOVT POLYTECHNIC", place: "RAMANTHAPUR", districtCode: "MDL", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1958, branchCode: "EE", branchName: "DIPLOMA IN ELECTRICAL & ELECTRONICS ENGINEERING" },
-    { instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CE", branchName: "DIPLOMA IN CIVIL ENGINEERING" },
-{ instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CS", branchName: "DIPLOMA IN COMPUTER ENGINEERING" },
-{ instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "EE", branchName: "DIPLOMA IN ELECTRICAL & ELECTRONICS ENGINEERING" },
-{ instituteCode: "ADBP", instituteName: "S.G GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "ME", branchName: "DIPLOMA IN MECHANICAL ENGINEERING" },
+    { instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CE", branchName: "DIPLOMA IN CIVIL ENGINEERING" },
+    { instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CS", branchName: "DIPLOMA IN COMPUTER ENGINEERING" },
+    { instituteCode: "JNGP", instituteName: "J N GOVT POLYTECHNIC RAMANTHAPUR", place: "RAMANTHAPUR", districtCode: "MDL", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1958, branchCode: "EE", branchName: "DIPLOMA IN ELECTRICAL & ELECTRONICS ENGINEERING" },
+    { instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CE", branchName: "DIPLOMA IN CIVIL ENGINEERING" },
+{ instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "CS", branchName: "DIPLOMA IN COMPUTER ENGINEERING" },
+{ instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "EE", branchName: "DIPLOMA IN ELECTRICAL & ELECTRONICS ENGINEERING" },
+{ instituteCode: "ADBP", instituteName: "S.G ADILABAD GOVT POLYTECHNIC", place: "ADILABAD", districtCode: "ADB", coEducation: "COED", collegeType: "GOV", yearOfEstablishment: 1980, branchCode: "ME", branchName: "DIPLOMA IN MECHANICAL ENGINEERING" },
 { instituteCode: "AITH", instituteName: "ANNAMACHARYA INST. OF TECHNOLOGY. AND SCI.", place: "HAYATHNAGAR", districtCode: "RR", coEducation: "COED", collegeType: "PVT", yearOfEstablishment: 2009, branchCode: "CE", branchName: "DIPLOMA IN CIVIL ENGINEERING" },
 { instituteCode: "AITH", instituteName: "ANNAMACHARYA INST. OF TECHNOLOGY. AND SCI.", place: "HAYATHNAGAR", districtCode: "RR", coEducation: "COED", collegeType: "PVT", yearOfEstablishment: 2009, branchCode: "CS", branchName: "DIPLOMA IN COMPUTER ENGINEERING" },  
 { instituteCode: "AITH", instituteName: "ANNAMACHARYA INST. OF TECHNOLOGY. AND SCI.", place: "HAYATHNAGAR", districtCode: "RR", coEducation: "COED", collegeType: "PVT", yearOfEstablishment: 2009, branchCode: "EC", branchName: "DIPLOMA IN ELECTRONICS & COMMUNICATION ENGINEERING" },
@@ -114,7 +114,7 @@ const institutes = [
         },
         {
             instituteCode: "BLMP",
-            instituteName: "GOVT POLYTECHNIC",
+            instituteName: "GOVT POLYTECHNIC BELLAMPELLI",
             place: "BELLAMPALLI",
             districtCode: "MNC",
             coEducation: "COED",
@@ -125,7 +125,7 @@ const institutes = [
         },
         {
             instituteCode: "BLMP",
-            instituteName: "GOVT POLYTECHNIC",
+            instituteName: "GOVT POLYTECHNIC  BELLAMPELLI",
             place: "BELLAMPALLI",
             districtCode: "MNC",
             coEducation: "COED",
@@ -136,7 +136,7 @@ const institutes = [
         },
         {
             instituteCode: "BLMP",
-            instituteName: "GOVT POLYTE CHNIC",
+            instituteName: "GOVT POLYTECHNIC  BELLAMPELLI",
             place: "BELLAMPALLI",
             districtCode: "MNC",
             coEducation: "COED",
@@ -367,7 +367,7 @@ const institutes = [
         },
         {
             instituteCode: "CGNT",
-            instituteName: "GOVERNMENT POLYTECHNIC",
+            instituteName: "CHEGUNTA GOVERNMENT POLYTECHNIC ",
             place: "CHEGUNTA",
             districtCode: "MED",
             coEducation: "COED",
@@ -466,7 +466,7 @@ const institutes = [
         },
         {
             instituteCode: "CRYL",
-            instituteName: "GOVT POLYTECHNIC",
+            instituteName: "CHERIYAL GOVT POLYTECHNIC ",
             place: "CHERIYAL",
             districtCode: "SDP",
             coEducation: "COED",
@@ -477,7 +477,7 @@ const institutes = [
         },
         {
             instituteCode: "CRYL",
-            instituteName: "GOVT POLYTECHNIC",
+            instituteName: "CHERIYAL GOVT POLYTECHNIC ",
             place: "CHERIYAL",
             districtCode: "SDP",
             coEducation: "COED",
@@ -598,7 +598,7 @@ const institutes = [
         },
         {
             instituteCode: "GDWL",
-            instituteName: "GOVERNMENT POLYTECHNIC",
+            instituteName: "GADWAL GOVERNMENT POLYTECHNIC ",
             place: "GADWAL",
             districtCode: "GDL",
             coEducation: "COED",
@@ -609,7 +609,7 @@ const institutes = [
         },
         {
             instituteCode: "GDWL",
-            instituteName: "GOVERNMENT POLYTECHNIC",
+            instituteName: "GADWAL GOVERNMENT POLYTECHNIC ",
             place: "GADWAL",
             districtCode: "GDL",
             coEducation: "COED",
@@ -620,7 +620,7 @@ const institutes = [
         },
         {
             instituteCode: "GNPR",
-            instituteName: "GOVT.POLYTECHNIC",
+            instituteName: " GHANAPUR GOVERNMENT POLYTECHNIC",
             place: "STATION GHANAPUR",
             districtCode: "JGN",
             coEducation: "COED",
@@ -631,7 +631,7 @@ const institutes = [
         },
         {
             instituteCode: "GNPR",
-            instituteName: "GOVT.POLYTECHNIC",
+            instituteName: "GHANAPUR GOVERNMENT POLYTECHNIC",
             place: "STATION GHANAPUR",
             districtCode: "JGN",
             coEducation: "COED",
@@ -664,7 +664,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -675,7 +675,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -686,7 +686,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -697,7 +697,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -708,7 +708,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -719,7 +719,7 @@ const institutes = [
         },
         {
             instituteCode: "GPWS",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "SECUNDERABAD GOVT POLYTECHNIC FOR WOMEN",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "GIRLS",
@@ -730,7 +730,7 @@ const institutes = [
         },
         {
             instituteCode: "GWMB",
-            instituteName: "GOVT POLY. FOR WOMEN AND MINORITIES",
+            instituteName: "BADANGPET GOVT POLY. FOR WOMEN AND MINORITIES",
             place: "BADANGPET",
             districtCode: "RR",
             coEducation: "GIRLS",
@@ -741,7 +741,7 @@ const institutes = [
         },
         {
             instituteCode: "GWMB",
-            instituteName: "GOVT POLY. FOR WOMEN AND MINORITIES",
+            instituteName: "BADANGPET GOVT POLY. FOR WOMEN AND MINORITIES",
             place: "BADANGPET",
             districtCode: "RR",
             coEducation: "GIRLS",
@@ -752,7 +752,7 @@ const institutes = [
         },
         {
             instituteCode: "GWMB",
-            instituteName: "GOVT POLY. FOR WOMEN AND MINORITIES",
+            instituteName: "BADANGPET GOVT POLY. FOR WOMEN AND MINORITIES",
             place: "BADANGPET",
             districtCode: "RR",
             coEducation: "GIRLS",
@@ -763,7 +763,7 @@ const institutes = [
         },
         {
             instituteCode: "GWNZ",
-            instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+            instituteName: "NIZAMABAD, GOVT POLYTECHNIC FOR WOMEN",
             place: "NIZAMABAD",
             districtCode: "NZB",
             coEducation: "GIRLS",
@@ -785,7 +785,7 @@ const institutes = [
         },
         {
             instituteCode: "GZWL",
-            instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+            instituteName: "GAJWEL GOVT MODEL RESIDENTIAL POLYTECHNIC",
             place: "GAJWEL",
             districtCode: "SDP",
             coEducation: "BOYS",
@@ -796,7 +796,7 @@ const institutes = [
         },
         {
             instituteCode: "GZWL",
-            instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+            instituteName: "GAJWEL GOVT MODEL RESIDENTIAL POLYTECHNIC",
             place: "GAJWEL",
             districtCode: "SDP",
             coEducation: "BOYS",
@@ -807,7 +807,7 @@ const institutes = [
         },
         {
             instituteCode: "GZWL",
-            instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+            instituteName: "GAJWEL GOVT MODEL RESIDENTIAL POLYTECHNIC",
             place: "GAJWEL",
             districtCode: "SDP",
             coEducation: "BOYS",
@@ -840,7 +840,7 @@ const institutes = [
         },
         {
             instituteCode: "HSBD",
-            instituteName: "GOVERNMENT POLYTECHNIC",
+            instituteName: "HUSNABAD GOVERNMENT POLYTECHNIC",
             place: "HUSNABAD",
             districtCode: "SDP",
             coEducation: "COED",
@@ -851,7 +851,7 @@ const institutes = [
         },
         {
             instituteCode: "HSBD",
-            instituteName: "GOVERNMENT POLYTECHNIC",
+            instituteName: "HUSNABAD GOVERNMENT POLYTECHNIC",
             place: "HUSNABAD",
             districtCode: "SDP",
             coEducation: "COED",
@@ -906,7 +906,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -917,7 +917,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -928,7 +928,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -939,7 +939,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -950,7 +950,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -961,7 +961,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -972,7 +972,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -983,7 +983,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -994,7 +994,7 @@ const institutes = [
         },
         {
             instituteCode: "IOES",
-            instituteName: "GOVT INSTITUTE OF ELECTRONICS",
+            instituteName: "SECUNDERABAD GOVT INSTITUTE OF ELECTRONICS",
             place: "SECUNDERABAD",
             districtCode: "HYD",
             coEducation: "COED",
@@ -1005,7 +1005,7 @@ const institutes = [
         },
         {
             instituteCode: "JGPT",
-            instituteName: "GOVT.POLYTECHNIC",
+            instituteName: "JOGIPET GOVT.POLYTECHNIC",
             place: "JOGIPET",
             districtCode: "SRD",
             coEducation: "COED",
@@ -1016,7 +1016,7 @@ const institutes = [
         },
         {
             instituteCode: "JGPW",
-            instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+            instituteName: "JOGIPET GOVERNMENT POLYTECHNIC FOR WOMEN",
             place: "JOGIPET",
             districtCode: "SRD",
             coEducation: "GIRLS",
@@ -1028,7 +1028,7 @@ const institutes = [
 
     { 
         instituteCode: "JGPW",
-         instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+         instituteName: "JOGIPET GOVERNMENT POLYTECHNIC FOR WOMEN",
           place: "JOGIPET"
           , districtCode: "SRD",
            coEducation: "GIRLS",
@@ -1069,7 +1069,7 @@ const institutes = [
                  branchName: "DIPLOMA IN ELECTRICAL & ELECTRONICS ENGINEERING"
                  },
     { instituteCode: "JNGP",
-         instituteName: "J N GOVT POLYTECHNIC", 
+         instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC", 
          place: "RAMANTHAPUR",
           districtCode: "MDL", 
           coEducation: "COED",
@@ -1080,7 +1080,7 @@ const institutes = [
          },
     {
          instituteCode: "JNGP",
-         instituteName: "J N GOVT POLYTECHNIC",
+         instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC",
          place: "RAMANTHAPUR",
           districtCode: "MDL",
            coEducation: "COED",
@@ -1091,7 +1091,7 @@ const institutes = [
          },
     {
          instituteCode: "JNGP",
-         instituteName: "J N GOVT POLYTECHNIC",
+         instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC",
           place: "RAMANTHAPUR",
            districtCode: "MDL",
             coEducation: "COED",
@@ -1102,7 +1102,7 @@ const institutes = [
             },
     {
          instituteCode: "JNGP",
-          instituteName: "J N GOVT POLYTECHNIC", 
+          instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC", 
           place: "RAMANTHAPUR",
            districtCode: "MDL",
             coEducation: "COED",
@@ -1113,7 +1113,7 @@ const institutes = [
              },
     {
          instituteCode: "JNGP", 
-         instituteName: "J N GOVT POLYTECHNIC",
+         instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC",
           place: "RAMANTHAPUR",
            districtCode: "MDL",
            coEducation: "COED",
@@ -1124,7 +1124,7 @@ const institutes = [
             },
     { 
         instituteCode: "JNGP", 
-        instituteName: "J N GOVT POLYTECHNIC", 
+        instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC", 
         place: "RAMANTHAPUR",
          districtCode: "MDL",
           coEducation: "COED",
@@ -1135,7 +1135,7 @@ const institutes = [
          },
     {
         instituteCode: "JNGPSW",
-        instituteName: "J N GOVT POLYTECHNIC",
+        instituteName: "RAMANTHAPUR J N GOVT POLYTECHNIC",
          place: "RAMANTHAPUR",
           districtCode: "MDL",
           coEducation: "COED", 
@@ -1438,7 +1438,7 @@ const institutes = [
               },
               {
                 instituteCode: "KRTL",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KORUTLA GOVT.POLYTECHNIC",
                 place: "KORUTLA",
                 districtCode: "JTL",
                 coEducation: "COED",
@@ -1449,7 +1449,7 @@ const institutes = [
               },
               {
                 instituteCode: "KRTL",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KORUTLA GOVT.POLYTECHNIC",
                 place: "KORUTLA",
                 districtCode: "JTL",
                 coEducation: "COED",
@@ -1460,7 +1460,7 @@ const institutes = [
               },
               {
                 instituteCode: "KSGI",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "KOSGI GOVERNMENT POLYTECHNIC",
                 place: "KOSGI",
                 districtCode: "NPT",
                 coEducation: "COED",
@@ -1471,7 +1471,7 @@ const institutes = [
               },
               {
                 instituteCode: "KSGI",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "KOSGI GOVERNMENT POLYTECHNIC",
                 place: "KOSGI",
                 districtCode: "NPT",
                 coEducation: "COED",
@@ -1482,7 +1482,7 @@ const institutes = [
               },
               {
                 instituteCode: "KSGI",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName:"KOSGI GOVERNMENT POLYTECHNIC",
                 place: "KOSGI",
                 districtCode: "NPT",
                 coEducation: "COED",
@@ -1493,7 +1493,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1504,7 +1504,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1515,7 +1515,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1526,7 +1526,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1537,7 +1537,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1548,7 +1548,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGM",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "KOTHAGUDEM GOVT POLYTECHNIC",
                 place: "KOTHAGUDEM",
                 districtCode: "KGM",
                 coEducation: "COED",
@@ -1559,7 +1559,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KOTAGIRI GOVT.POLYTECHNIC",
                 place: "KOTAGIRI",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -1570,7 +1570,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTGR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KOTAGIRI GOVT.POLYTECHNIC",
                 place: "KOTAGIRI",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -1581,7 +1581,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTRM",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KATARAM GOVT.POLYTECHNIC",
                 place: "KATARAM",
                 districtCode: "JBP",
                 coEducation: "COED",
@@ -1592,7 +1592,7 @@ const institutes = [
               },
               {
                 instituteCode: "KTRM",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "KATARAM GOVT.POLYTECHNIC",
                 place: "KATARAM",
                 districtCode: "JBP",
                 coEducation: "COED",
@@ -1625,7 +1625,7 @@ const institutes = [
               },
               {
                 instituteCode: "MAHM",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MAHESHWARAM GOVERNMENT POLYTECHNIC",
                 place: "MAHESHWARAM",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -1636,7 +1636,7 @@ const institutes = [
               },
               {
                 instituteCode: "MAHM",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MAHESHWARAM GOVERNMENT POLYTECHNIC",
                 place: "MAHESHWARAM",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -1647,7 +1647,7 @@ const institutes = [
               },
               {
                 instituteCode: "MAHM",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MAHESHWARAM GOVERNMENT POLYTECHNIC",
                 place: "MAHESHWARAM",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -1658,7 +1658,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC MASAB TANK",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1669,7 +1669,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1680,7 +1680,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1691,7 +1691,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1702,7 +1702,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1713,7 +1713,7 @@ const institutes = [
               },
               {
                 instituteCode: "MASB",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: " MASAB TANK GOVT POLYTECHNIC",
                 place: "MASAB TANK",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -1724,8 +1724,8 @@ const institutes = [
               },
               {
                 instituteCode: "MBNR",
-                instituteName: "GOVT POLYTECHNIC",
-                place: "MAHABUB NAGAR",
+                instituteName: "MAHABUBNAGAR GOVT POLYTECHNIC",
+                place: "MAHABUBNAGAR",
                 districtCode: "MBN",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -1735,8 +1735,8 @@ const institutes = [
               },
               {
                 instituteCode: "MBNR",
-                instituteName: "GOVT POLYTECHNIC",
-                place: "MAHABUB NAGAR",
+                instituteName: "MAHABUBNAGAR GOVT POLYTECHNIC",
+                place: "MAHABUBNAGAR",
                 districtCode: "MBN",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -1746,8 +1746,8 @@ const institutes = [
               },
               {
                 instituteCode: "MBNR",
-                instituteName: "GOVT POLYTECHNIC",
-                place: "MAHABUB NAGAR",
+                instituteName: "MAHABUBNAGAR GOVT POLYTECHNIC",
+                place: "MAHABUBNAGAR",
                 districtCode: "MBN",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -1757,8 +1757,8 @@ const institutes = [
               },
               {
                 instituteCode: "MBNR",
-                instituteName: "GOVT POLYTECHNIC",
-                place: "MAHABUB NAGAR",
+                instituteName: "MAHABUBNAGAR GOVT POLYTECHNIC",
+                place: "MAHABUBNAGAR",
                 districtCode: "MBN",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -1768,8 +1768,8 @@ const institutes = [
               },
               {
                 instituteCode: "MBNR",
-                instituteName: "GOVT POLYTECHNIC",
-                place: "MAHABUB NAGAR",
+                instituteName: "MAHABUBNAGAR GOVT POLYTECHNIC",
+                place: "MAHABUBNAGAR",
                 districtCode: "MBN",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -1779,7 +1779,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDCL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MEDCHAL GOVERNMENT POLYTECHNIC",
                 place: "MEDCHAL",
                 districtCode: "MDL",
                 coEducation: "COED",
@@ -1790,7 +1790,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDCL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MEDCHAL GOVERNMENT POLYTECHNIC",
                 place: "MEDCHAL",
                 districtCode: "MDL",
                 coEducation: "COED",
@@ -1801,7 +1801,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDCL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "MEDCHAL GOVERNMENT POLYTECHNIC",
                 place: "MEDCHAL",
                 districtCode: "MDL",
                 coEducation: "COED",
@@ -1812,7 +1812,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDKW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "MEDAK GOVT POLYTECHNIC FOR WOMEN",
                 place: "MEDAK",
                 districtCode: "MED",
                 coEducation: "GIRLS",
@@ -1823,7 +1823,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDKW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "MEDAK GOVT POLYTECHNIC FOR WOMEN",
                 place: "MEDAK",
                 districtCode: "MED",
                 coEducation: "GIRLS",
@@ -1834,7 +1834,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDKW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "MEDAK GOVT POLYTECHNIC FOR WOMEN",
                 place: "MEDAK",
                 districtCode: "MED",
                 coEducation: "GIRLS",
@@ -1845,7 +1845,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDRA",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "MADHIRA GOVT.POLYTECHNIC",
                 place: "MADHIRA",
                 districtCode: "KHM",
                 coEducation: "COED",
@@ -1856,7 +1856,7 @@ const institutes = [
               },
               {
                 instituteCode: "MDRA",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "MADHIRA GOVT.POLYTECHNIC",
                 place: "MADHIRA",
                 districtCode: "KHM",
                 coEducation: "COED",
@@ -2021,7 +2021,7 @@ const institutes = [
               },
               {
                 instituteCode: "MNGR",
-                instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+                instituteName: "MANUGURU GOVT MODEL RESIDENTIAL POLYTECHNIC",
                 place: "MANUGURU ASWAPURAM",
                 districtCode: "KGM",
                 coEducation: "BOYS",
@@ -2032,7 +2032,7 @@ const institutes = [
               },
               {
                 instituteCode: "MNGR",
-                instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+                instituteName: "MANUGURU GOVT MODEL RESIDENTIAL POLYTECHNIC",
                 place: "MANUGURU ASWAPURAM",
                 districtCode: "KGM",
                 coEducation: "BOYS",
@@ -2043,7 +2043,7 @@ const institutes = [
               },
               {
                 instituteCode: "MNGR",
-                instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+                instituteName: "MANUGURU GOVT MODEL RESIDENTIAL POLYTECHNIC",
                 place: "MANUGURU ASWAPURAM",
                 districtCode: "KGM",
                 coEducation: "BOYS",
@@ -2131,7 +2131,7 @@ const institutes = [
               },
               {
                 instituteCode: "NALG",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NALGONDA GOVT POLYTECHNIC",
                 place: "NALGONDA",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2142,7 +2142,7 @@ const institutes = [
               },
               {
                 instituteCode: "NALG",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NALGONDA GOVT POLYTECHNIC",
                 place: "NALGONDA",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2153,7 +2153,7 @@ const institutes = [
               },
               {
                 instituteCode: "NALG",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NALGONDA GOVT POLYTECHNIC",
                 place: "NALGONDA",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2164,7 +2164,7 @@ const institutes = [
               },
               {
                 instituteCode: "NALG",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NALGONDA GOVT POLYTECHNIC",
                 place: "NALGONDA",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2241,7 +2241,7 @@ const institutes = [
               },
               {
                 instituteCode: "NDPT",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NANDIPET GOVT.POLYTECHNIC",
                 place: "NANDIPET",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2252,7 +2252,7 @@ const institutes = [
               },
               {
                 instituteCode: "NDPT",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NANDIPET GOVT.POLYTECHNIC",
                 place: "NANDIPET",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2285,7 +2285,7 @@ const institutes = [
               },
               {
                 instituteCode: "NKHD",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "NARAYANKHED GOVERNMENT POLYTECHNIC",
                 place: "NARAYANKHED",
                 districtCode: "SRD",
                 coEducation: "COED",
@@ -2296,7 +2296,7 @@ const institutes = [
               },
               {
                 instituteCode: "NKHD",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "NARAYANKHED GOVERNMENT POLYTECHNIC",
                 place: "NARAYANKHED",
                 districtCode: "SRD",
                 coEducation: "COED",
@@ -2307,7 +2307,7 @@ const institutes = [
               },
               {
                 instituteCode: "NRML",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NIRMAL GOVT.POLYTECHNIC",
                 place: "NIRMAL",
                 districtCode: "NRM",
                 coEducation: "COED",
@@ -2318,7 +2318,7 @@ const institutes = [
               },
               {
                 instituteCode: "NRML",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NIRMAL GOVT.POLYTECHNIC",
                 place: "NIRMAL",
                 districtCode: "NIRMAL",
                 coEducation: "COED",
@@ -2329,7 +2329,7 @@ const institutes = [
               },
               {
                 instituteCode: "NSGR",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NAGARJUNASAGAR GOVT POLYTECHNIC",
                 place: "NAGARJUNASAGAR",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2340,7 +2340,7 @@ const institutes = [
               },
               {
                 instituteCode: "NSGR",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NAGARJUNASAGAR GOVT POLYTECHNIC",
                 place: "NAGARJUNASAGAR",
                 districtCode: "NLG",
                 coEducation: "COED",
@@ -2351,7 +2351,7 @@ const institutes = [
               },
               {
                 instituteCode: "NSPR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NARSAPUR GOVT.POLYTECHNIC",
                 place: "GOMARAM  Near NARSAPUR",
                 districtCode: "MED",
                 coEducation: "COED",
@@ -2362,7 +2362,7 @@ const institutes = [
               },
               {
                 instituteCode: "NSPR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "NARSAPUR GOVT.POLYTECHNIC",
                 place: "GOMARAM  Near NARSAPUR",
                 districtCode: "MED",
                 coEducation: "COED",
@@ -2373,7 +2373,7 @@ const institutes = [
               },
               {
                 instituteCode: "NVPT",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "NAVIPET GOVERNMENT POLYTECHNIC",
                 place: "NAVIPET",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2384,7 +2384,7 @@ const institutes = [
               },
               {
                 instituteCode: "NVPT",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "NAVIPET GOVERNMENT POLYTECHNIC",
                 place: "NAVIPET",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2395,7 +2395,7 @@ const institutes = [
               },
               {
                 instituteCode: "NZBD",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NIZAMABAD GOVT POLYTECHNIC",
                 place: "NIZAMABAD",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2406,7 +2406,7 @@ const institutes = [
               },
               {
                 instituteCode: "NZBD",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NIZAMABAD GOVT POLYTECHNIC",
                 place: "NIZAMABAD",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2417,7 +2417,7 @@ const institutes = [
               },
               {
                 instituteCode: "NZBD",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NIZAMABAD GOVT POLYTECHNIC",
                 place: "NIZAMABAD",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2428,7 +2428,7 @@ const institutes = [
               },
               {
                 instituteCode: "NZBD",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NIZAMABAD GOVT POLYTECHNIC",
                 place: "NIZAMABAD",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2439,7 +2439,7 @@ const institutes = [
               },
               {
                 instituteCode: "NZBD",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "NIZAMABAD GOVT POLYTECHNIC",
                 place: "NIZAMABAD",
                 districtCode: "NZB",
                 coEducation: "COED",
@@ -2450,7 +2450,7 @@ const institutes = [
               },
               {
                 instituteCode: "PBRW",
-                instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+                instituteName: "PEBBAIR GOVERNMENT POLYTECHNIC FOR WOMEN",
                 place: "PEBBAIR",
                 districtCode: "WNP",
                 coEducation: "GIRLS",
@@ -2461,7 +2461,7 @@ const institutes = [
               },
               {
                 instituteCode: "PBRW",
-                instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+                instituteName: "PEBBAIR GOVERNMENT POLYTECHNIC FOR WOMEN",
                 place: "PEBBAIR",
                 districtCode: "WNP",
                 coEducation: "GIRLS",
@@ -2516,7 +2516,7 @@ const institutes = [
               },
               {
                 instituteCode: "PRKL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "PARKAL GOVERNMENT POLYTECHNIC",
                 place: "PARKAL",
                 districtCode: "HNK",
                 coEducation: "COED",
@@ -2527,7 +2527,7 @@ const institutes = [
               },
               {
                 instituteCode: "PRKL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "PARKAL GOVERNMENT POLYTECHNIC",
                 place: "PARKAL",
                 districtCode: "HNK",
                 coEducation: "COED",
@@ -2538,7 +2538,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2549,7 +2549,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2560,7 +2560,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2571,7 +2571,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2582,7 +2582,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2593,7 +2593,7 @@ const institutes = [
               },
               {
                 instituteCode: "QQHD",
-                instituteName: "QQ GOVT POLYTECHNIC",
+                instituteName: "CHENDULALBARADARI QQ GOVT POLYTECHNIC",
                 place: "CHENDULALBARADARI",
                 districtCode: "HYD",
                 coEducation: "COED",
@@ -2846,7 +2846,7 @@ const institutes = [
               },
               {
                 instituteCode: "SDPT",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "SIDDIPET GOVT.POLYTECHNIC",
                 place: "SIDDIPET",
                 districtCode: "SDP",
                 coEducation: "COED",
@@ -2857,7 +2857,7 @@ const institutes = [
               },
               {
                 instituteCode: "SDPT",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "SIDDIPET GOVT.POLYTECHNIC",
                 place: "SIDDIPET",
                 districtCode: "SDP",
                 coEducation: "COED",
@@ -2868,7 +2868,7 @@ const institutes = [
               },
               {
                 instituteCode: "SDPW",
-                instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+                instituteName: "SIDDIPET GOVERNMENT POLYTECHNIC FOR WOMEN",
                 place: "SIDDIPET",
                 districtCode: "SDP",
                 coEducation: "GIRLS",
@@ -2879,7 +2879,7 @@ const institutes = [
               },
               {
                 instituteCode: "SDPW",
-                instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+                instituteName: "SIDDIPET GOVERNMENT POLYTECHNIC FOR WOMEN",
                 place: "SIDDIPET",
                 districtCode: "SDP",
                 coEducation: "GIRLS",
@@ -2890,7 +2890,7 @@ const institutes = [
               },
               {
                 instituteCode: "SDPW",
-                instituteName: "GOVERNMENT POLYTECHNIC FOR WOMEN",
+                instituteName: "SIDDIPET GOVERNMENT POLYTECHNIC FOR WOMEN",
                 place: "SIDDIPET",
                 districtCode: "SDP",
                 coEducation: "GIRLS",
@@ -2901,7 +2901,7 @@ const institutes = [
               },
               {
                 instituteCode: "SGMA",
-                instituteName: "S G M GOVT POLYTECHNIC",
+                instituteName: "ABDULLAPURMET S G M GOVT POLYTECHNIC",
                 place: "ABDULLAPURMET",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -2912,7 +2912,7 @@ const institutes = [
               },
               {
                 instituteCode: "SGMA",
-                instituteName: "S G M GOVT POLYTECHNIC",
+                instituteName: "ABDULLAPURMET S G M GOVT POLYTECHNIC",
                 place: "ABDULLAPURMET",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -2923,7 +2923,7 @@ const institutes = [
               },
               {
                 instituteCode: "SGMA",
-                instituteName: "S G M GOVT POLYTECHNIC",
+                instituteName: "ABDULLAPURMET S G M GOVT POLYTECHNIC",
                 place: "ABDULLAPURMET",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -2934,7 +2934,7 @@ const institutes = [
               },
               {
                 instituteCode: "SGMA",
-                instituteName: "S G M GOVT POLYTECHNIC",
+                instituteName: "ABDULLAPURMET S G M GOVT POLYTECHNIC",
                 place: "ABDULLAPURMET",
                 districtCode: "RR",
                 coEducation: "COED",
@@ -2945,8 +2945,8 @@ const institutes = [
               },
               {
                 instituteCode: "SGRD",
-                instituteName: "GOVERNMENT POLYTECHNIC",
-                place: "SANGA REDDY",
+                instituteName: "SANGAREDDY GOVERNMENT POLYTECHNIC",
+                place: "SANGAREDDY",
                 districtCode: "SRD",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -2956,8 +2956,8 @@ const institutes = [
               },
               {
                 instituteCode: "SGRD",
-                instituteName: "GOVERNMENT POLYTECHNIC",
-                place: "SANGA REDDY",
+                instituteName: "SANGAREDDY GOVERNMENT POLYTECHNIC",
+                place: "SANGAREDDY",
                 districtCode: "SRD",
                 coEducation: "COED",
                 collegeType: "GOV",
@@ -3126,7 +3126,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRPW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "SURYAPET GOVT POLYTECHNIC FOR WOMEN",
                 place: "SURYAPET",
                 districtCode: "SRP",
                 coEducation: "GIRLS",
@@ -3137,7 +3137,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRPW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "SURYAPET GOVT POLYTECHNIC FOR WOMEN",
                 place: "SURYAPET",
                 districtCode: "SRP",
                 coEducation: "GIRLS",
@@ -3148,7 +3148,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRPW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "SURYAPET GOVT POLYTECHNIC FOR WOMEN",
                 place: "SURYAPET",
                 districtCode: "SRP",
                 coEducation: "GIRLS",
@@ -3159,7 +3159,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRRS",
-                instituteName: "SRRS GOVT POLYTECHNIC",
+                instituteName: "SIRCILLA GOVT POLYTECHNIC",
                 place: "SIRCILLA",
                 districtCode: "SRC",
                 coEducation: "COED",
@@ -3170,7 +3170,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRRS",
-                instituteName: "SRRS GOVT POLYTECHNIC",
+                instituteName: "SIRCILLA GOVT POLYTECHNIC",
                 place: "SIRCILLA",
                 districtCode: "SRC",
                 coEducation: "COED",
@@ -3181,7 +3181,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRRS",
-                instituteName: "SRRS GOVT POLYTECHNIC",
+                instituteName: "SIRCILLA GOVT POLYTECHNIC",
                 place: "SIRCILLA",
                 districtCode: "SRC",
                 coEducation: "COED",
@@ -3192,7 +3192,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRRS",
-                instituteName: "SRRS GOVT POLYTECHNIC",
+                instituteName: "SIRCILLA GOVT POLYTECHNIC",
                 place: "SIRCILLA",
                 districtCode: "SRC",
                 coEducation: "COED",
@@ -3203,7 +3203,7 @@ const institutes = [
               },
               {
                 instituteCode: "SRRSSW",
-                instituteName: "SRRS GOVT POLYTECHNIC",
+                instituteName: "SIRCILLA GOVT POLYTECHNIC",
                 place: "SIRCILLA",
                 districtCode: "SRC",
                 coEducation: "COED",
@@ -3478,7 +3478,7 @@ const institutes = [
               },
               {
                 instituteCode: "TRMG",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "TIRUMALAGIRI GOVT.POLYTECHNIC",
                 place: "TIRUMALAGIRI",
                 districtCode: "SRP",
                 coEducation: "COED",
@@ -3489,7 +3489,7 @@ const institutes = [
               },
               {
                 instituteCode: "TRMG",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "TIRUMALAGIRI GOVT.POLYTECHNIC",
                 place: "TIRUMALAGIRI ",
                 districtCode: "SRP",
                 coEducation: "COED",
@@ -3500,7 +3500,7 @@ const institutes = [
               },
               {
                 instituteCode: "UTNR",
-                instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+                instituteName: "UTNOOR GOVT MODEL RESIDENTIAL POLYTECHNIC",
                 place: "UTNOOR",
                 districtCode: "ADB",
                 coEducation: "BOYS",
@@ -3511,7 +3511,7 @@ const institutes = [
               },
               {
                 instituteCode: "UTNR",
-                instituteName: "GOVT MODEL RESIDENTIAL POLYTECHNIC",
+                instituteName: "UTNOOR GOVT MODEL RESIDENTIAL POLYTECHNIC",
                 place: "UTNOOR",
                 districtCode: "ADB",
                 coEducation: "BOYS",
@@ -3555,7 +3555,7 @@ const institutes = [
               },
               {
                 instituteCode: "VDPL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "VADEPALLI GOVERNMENT POLYTECHNIC",
                 place: "VADEPALLI",
                 districtCode: "GDL",
                 coEducation: "COED",
@@ -3566,7 +3566,7 @@ const institutes = [
               },
               {
                 instituteCode: "VDPL",
-                instituteName: "GOVERNMENT POLYTECHNIC",
+                instituteName: "VADEPALLI GOVERNMENT POLYTECHNIC",
                 place: "VADEPALLI",
                 districtCode: "GDL",
                 coEducation: "COED",
@@ -3731,7 +3731,7 @@ const institutes = [
               },
               {
                 instituteCode: "VKBD",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "VIKARABAD GOVT.POLYTECHNIC",
                 place: "VIKARABAD",
                 districtCode: "VKB",
                 coEducation: "COED",
@@ -3742,7 +3742,7 @@ const institutes = [
               },
               {
                 instituteCode: "VKBD",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "VIKARABAD GOVT.POLYTECHNIC",
                 place: "VIKARABAD",
                 districtCode: "VKB",
                 coEducation: "COED",
@@ -3753,7 +3753,7 @@ const institutes = [
               },
               {
                 instituteCode: "VKBD",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "VIKARABAD GOVT.POLYTECHNIC",
                 place: "VIKARABAD",
                 districtCode: "VKB",
                 coEducation: "COED",
@@ -3962,7 +3962,7 @@ const institutes = [
               },
               {
                 instituteCode: "WLGW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "WARANGAL GOVT POLYTECHNIC FOR WOMEN",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "GIRLS",
@@ -3973,7 +3973,7 @@ const institutes = [
               },
               {
                 instituteCode: "WLGW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "WARANGAL GOVT POLYTECHNIC FOR WOMEN",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "GIRLS",
@@ -3984,7 +3984,7 @@ const institutes = [
               },
               {
                 instituteCode: "WLGW",
-                instituteName: "GOVT POLYTECHNIC FOR WOMEN",
+                instituteName: "WARANGAL GOVT POLYTECHNIC FOR WOMEN",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "GIRLS",
@@ -3995,7 +3995,7 @@ const institutes = [
               },
               {
                 instituteCode: "WNPT",
-                instituteName: "KDR GOVT POLYTECHNIC",
+                instituteName: "WANAPARTHY KDR GOVT POLYTECHNIC",
                 place: "WANAPARTHY",
                 districtCode: "WNP",
                 coEducation: "COED",
@@ -4006,7 +4006,7 @@ const institutes = [
               },
               {
                 instituteCode: "WNPT",
-                instituteName: "KDR GOVT POLYTECHNIC",
+                instituteName: "WANAPARTHY KDR GOVT POLYTECHNIC",
                 place: "WANAPARTHY",
                 districtCode: "WNP",
                 coEducation: "COED",
@@ -4017,7 +4017,7 @@ const institutes = [
               },
               {
                 instituteCode: "WNPT",
-                instituteName: "KDR GOVT POLYTECHNIC",
+                instituteName: "WANAPARTHY KDR GOVT POLYTECHNIC",
                 place: "WANAPARTHY",
                 districtCode: "WNP",
                 coEducation: "COED",
@@ -4028,7 +4028,7 @@ const institutes = [
               },
               {
                 instituteCode: "WNPT",
-                instituteName: "KDR GOVT POLYTECHNIC",
+                instituteName: "WANAPARTHY KDR GOVT POLYTECHNIC",
                 place: "WANAPARTHY",
                 districtCode: "WNP",
                 coEducation: "COED",
@@ -4039,7 +4039,7 @@ const institutes = [
               },
               {
                 instituteCode: "WNPT",
-                instituteName: "KDR GOVT POLYTECHNIC",
+                instituteName: "WANAPARTHY KDR GOVT POLYTECHNIC",
                 place: "WANAPARTHY",
                 districtCode: "WNP",
                 coEducation: "COED",
@@ -4050,7 +4050,7 @@ const institutes = [
               },
               {
                 instituteCode: "WRGL",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "WARANGAL GOVT POLYTECHNIC",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "COED",
@@ -4061,7 +4061,7 @@ const institutes = [
               },
               {
                 instituteCode: "WRGL",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "WARANGAL GOVT POLYTECHNIC",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "COED",
@@ -4072,7 +4072,7 @@ const institutes = [
               },
               {
                 instituteCode: "WRGL",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "WARANGAL GOVT POLYTECHNIC",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "COED",
@@ -4083,7 +4083,7 @@ const institutes = [
               },
               {
                 instituteCode: "WRGL",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "WARANGAL GOVT POLYTECHNIC",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "COED",
@@ -4094,7 +4094,7 @@ const institutes = [
               },
               {
                 instituteCode: "WRGL",
-                instituteName: "GOVT POLYTECHNIC",
+                instituteName: "WARANGAL GOVT POLYTECHNIC",
                 place: "WARANGAL",
                 districtCode: "WGL",
                 coEducation: "COED",
@@ -4105,7 +4105,7 @@ const institutes = [
               },
               {
                 instituteCode: "YDGR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "YADAGIRIGUTTA GOVT.POLYTECHNIC",
                 place: "YADAGIRIGUTTA",
                 districtCode: "YBG",
                 coEducation: "COED",
@@ -4116,7 +4116,7 @@ const institutes = [
               },
               {
                 instituteCode: "YDGR",
-                instituteName: "GOVT.POLYTECHNIC",
+                instituteName: "YADAGIRIGUTTA GOVT.POLYTECHNIC",
                 place: "YADAGIRIGUTTA",
                 districtCode: "YBG",
                 coEducation: "COED",
@@ -4127,7 +4127,7 @@ const institutes = [
               },
               {
                 instituteCode: "ZHBD",
-                instituteName: "SS GOVT POLYTECHNIC",
+                instituteName: "ZAHIRABAD SS GOVT POLYTECHNIC",
                 place: "ZAHIRABAD",
                 districtCode: "SRD",
                 coEducation: "COED",
@@ -4138,7 +4138,7 @@ const institutes = [
               },
               {
                 instituteCode: "ZHBD",
-                instituteName: "SS GOVT POLYTECHNIC",
+                instituteName: "ZAHIRABAD SS GOVT POLYTECHNIC",
                 place: "ZAHIRABAD",
                 districtCode: "SRD",
                 coEducation: "COED",
@@ -4149,7 +4149,7 @@ const institutes = [
               },
               {
                 instituteCode: "ZHBD",
-                instituteName: "SS GOVT POLYTECHNIC",
+                instituteName: "ZAHIRABAD SS GOVT POLYTECHNIC",
                 place: "ZAHIRABAD",
                 districtCode: "SRD",
                 coEducation: "COED",
@@ -4160,7 +4160,7 @@ const institutes = [
               },
               {
                 instituteCode: "ZHBD",
-                instituteName: "SS GOVT POLYTECHNIC",
+                instituteName: "ZAHIRABAD SS GOVT POLYTECHNIC",
                 place: "ZAHIRABAD",
                 districtCode: "SRD",
                 coEducation: "COED",
