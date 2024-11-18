@@ -157,7 +157,15 @@ button:hover {
 .social-media a:hover {
     color: hsl(12, 88%, 59%);
 }
-
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: hsl(232, 12%, 13%);
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
