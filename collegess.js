@@ -4205,7 +4205,7 @@ function filterColleges() {
              (inst.collegeType.includes(collegeType) || !collegeType) &&
              (inst.branchName.toLowerCase().includes(branchName) || !branchName);
   });
-
+window.onload = populateTable();
   const tableBody = document.querySelector('#collegeTable tbody');
   tableBody.innerHTML = '';
   filteredInstitutes.forEach(inst => {
